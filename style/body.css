@@ -1,0 +1,8 @@
+.body-style {
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}

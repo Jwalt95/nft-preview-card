@@ -1,0 +1,181 @@
+.first-background {
+    width: 380px;
+    height: 580px;
+    border-radius: 40px;
+    background-color: hsla(217, 70%, 10%, 0.4);
+    position: relative
+}
+
+.second-background {
+    background-color: hsla(221, 70%, 10%, 0.5);
+    width: 340px;
+    height: 500px;
+    position: absolute;
+    margin-left: 21px;
+    margin-top: 60px;
+    border-radius: 40px;
+}
+
+
+.main-container {
+    background-color: hsl(216, 50%, 16%);
+
+    width: 300px;
+    height: 510px;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 41px;
+    z-index: 100;
+}
+
+.image-container {
+    width: 260px;
+    height: 270px;
+    margin-left: 20px;
+    margin-top: 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative
+}
+
+
+
+.eq-image {
+    display: block;
+    width: 260px;
+    height: 270px;
+    margin-top: 22px;
+    border-radius: 8px;
+
+
+}
+
+.top-image-container {
+    width: 260px;
+    height: 270px;
+
+    border-radius: 8px;
+    cursor: pointer;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: rgba(5, 247, 247, 0.5);
+    opacity: 0
+}
+
+.top-image-container:hover {
+    opacity: 1
+}
+
+.top-image {
+    position: absolute;
+    left: 105px;
+    top: 115px;
+    opacity: 0
+}
+
+.top-image {
+    opacity: 1;
+}
+
+
+
+.text-equilibrium {
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-bottom: 0
+}
+
+.text-equilibrium:hover {
+    color: aqua
+}
+
+.text-para {
+    color: gray;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 0
+}
+
+.container-flex {
+    display: flex;
+    align-items: center;
+    margin-top: 5px
+}
+
+.icon-eth-container {
+    margin-right: 3px;
+    margin-left: 20px
+}
+
+.icon-eth {
+    width: 7px
+}
+
+.container-icon-clock {
+    margin-left: 105px;
+    margin-right: 8px;
+    margin-top: 2px
+}
+
+.icon-clock {
+    width: 14px;
+
+}
+
+.text04 {
+    display: inline-block;
+    color: aqua;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.text-left {
+    display: inline-block;
+    font-size: 13px;
+    color: rgb(185, 185, 185);
+
+}
+
+.container-flex-second {
+    display: flex;
+    align-items: center;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(95, 95, 95);
+    width: 255px;
+    margin-left: 20px;
+    margin-top: 12px
+}
+
+
+.profile-image {
+    width: 25px;
+    margin-top: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: white;
+}
+
+.text-creation {
+    color: rgb(185, 185, 185);
+    font-size: 13px;
+    margin-left: 13px
+}
+
+.text-name {
+    color: white;
+    font-size: 13px;
+    margin-left: 5px;
+    cursor: pointer
+}
+
+.text-name:hover {
+    color: aqua
+}
